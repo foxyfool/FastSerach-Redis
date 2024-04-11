@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 import {
   Command,
   CommandEmpty,
@@ -84,6 +86,16 @@ export default function Home() {
               ) : null}
             </CommandList>
           </Command>
+          <div className="flex items-center justify-center mt-10 pt-10">
+            <p className="text-3xl tracking-tight font-bold mr-4">Built With</p>
+            <Image
+              className=""
+              src="/redis.webp"
+              width={50}
+              height={30}
+              alt="Picture of the author"
+            />
+          </div>
         </div>
       </div>
     </main>
