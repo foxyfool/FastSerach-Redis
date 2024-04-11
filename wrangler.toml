@@ -1,0 +1,7 @@
+name = "fasterapi"
+
+compatibility_date = "2024-04-10"
+
+[vars]
+UPSTASH_REDIS_REST_URL = "https://master-crow-49521.upstash.io"
+UPSTASH_REDIS_REST_TOKEN = "AcFxASQgMDgxNjVhMGUtMTIyMy00Y2Y2LTlhOWItY2E5NzU0NWY4NmU0ZGFjZjk3YjIzY2UwNGU1Njk3NThiZWJiZDRkOGFlZWY="
